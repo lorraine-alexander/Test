@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
 
 //! Project version number for OwletNetwork.
 FOUNDATION_EXPORT double OwletNetworkVersionNumber;
