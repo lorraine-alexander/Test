@@ -140,7 +140,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
   
   s.xcconfig = {
-        "FRAMEWORK_SEARCH_PATHS" => "'$(PODS_ROOT)/FirebaseDatabase'"
+        "FRAMEWORK_SEARCH_PATHS" => "'$(PODS_ROOT)/Firebase'"
     }
 #   s.vendored_frameworks = ["${PODS_ROOT}/FirebaseDatabase/Frameworks/FirebaseDatabase.framework"]
 
