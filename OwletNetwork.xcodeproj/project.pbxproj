@@ -10,6 +10,9 @@
 		296B5F4F1FFEA31A00F92A5B /* OwletNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296B5F451FFEA31A00F92A5B /* OwletNetwork.framework */; };
 		296B5F541FFEA31A00F92A5B /* OwletNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296B5F531FFEA31A00F92A5B /* OwletNetworkTests.swift */; };
 		296B5F561FFEA31A00F92A5B /* OwletNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 296B5F481FFEA31A00F92A5B /* OwletNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296B5F601FFEA40800F92A5B /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296B5F5F1FFEA40800F92A5B /* TestClass.swift */; };
+		BEC433879BD871E1CE0C472E /* Pods_OwletNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0B04080A34843AE4D005F9 /* Pods_OwletNetworkTests.framework */; };
+		CEC2BBEF887D8AD0F50E3F94 /* Pods_OwletNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9433736B082994716092451 /* Pods_OwletNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0916B1B5C73A4B15A170CC2B /* Pods-OwletNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwletNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwletNetwork/Pods-OwletNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		1EA6B6BC78997727A6900603 /* Pods-OwletNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwletNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwletNetworkTests/Pods-OwletNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		296B5F451FFEA31A00F92A5B /* OwletNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OwletNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		296B5F481FFEA31A00F92A5B /* OwletNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OwletNetwork.h; sourceTree = "<group>"; };
 		296B5F491FFEA31A00F92A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		296B5F4E1FFEA31A00F92A5B /* OwletNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwletNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296B5F531FFEA31A00F92A5B /* OwletNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwletNetworkTests.swift; sourceTree = "<group>"; };
 		296B5F551FFEA31A00F92A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296B5F5F1FFEA40800F92A5B /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		3D0B04080A34843AE4D005F9 /* Pods_OwletNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwletNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBCB64A6944A09282E16851 /* Pods-OwletNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwletNetworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwletNetworkTests/Pods-OwletNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9433736B082994716092451 /* Pods_OwletNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwletNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB66D3D8FFE52D917F8A35F /* Pods-OwletNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwletNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwletNetwork/Pods-OwletNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC2BBEF887D8AD0F50E3F94 /* Pods_OwletNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				296B5F4F1FFEA31A00F92A5B /* OwletNetwork.framework in Frameworks */,
+				BEC433879BD871E1CE0C472E /* Pods_OwletNetworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				296B5F471FFEA31A00F92A5B /* OwletNetwork */,
 				296B5F521FFEA31A00F92A5B /* OwletNetworkTests */,
 				296B5F461FFEA31A00F92A5B /* Products */,
+				CB2021F5D4A86D30357D8015 /* Pods */,
+				ECAD21F3117B8EC0B743D061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				296B5F481FFEA31A00F92A5B /* OwletNetwork.h */,
+				296B5F5F1FFEA40800F92A5B /* TestClass.swift */,
 				296B5F491FFEA31A00F92A5B /* Info.plist */,
 			);
 			path = OwletNetwork;
@@ -84,6 +99,26 @@
 				296B5F551FFEA31A00F92A5B /* Info.plist */,
 			);
 			path = OwletNetworkTests;
+			sourceTree = "<group>";
+		};
+		CB2021F5D4A86D30357D8015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB66D3D8FFE52D917F8A35F /* Pods-OwletNetwork.debug.xcconfig */,
+				0916B1B5C73A4B15A170CC2B /* Pods-OwletNetwork.release.xcconfig */,
+				BFBCB64A6944A09282E16851 /* Pods-OwletNetworkTests.debug.xcconfig */,
+				1EA6B6BC78997727A6900603 /* Pods-OwletNetworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECAD21F3117B8EC0B743D061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9433736B082994716092451 /* Pods_OwletNetwork.framework */,
+				3D0B04080A34843AE4D005F9 /* Pods_OwletNetworkTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 296B5F591FFEA31A00F92A5B /* Build configuration list for PBXNativeTarget "OwletNetwork" */;
 			buildPhases = (
+				FF825DBCC06366B51F3B3083 /* [CP] Check Pods Manifest.lock */,
 				296B5F401FFEA31A00F92A5B /* Sources */,
 				296B5F411FFEA31A00F92A5B /* Frameworks */,
 				296B5F421FFEA31A00F92A5B /* Headers */,
 				296B5F431FFEA31A00F92A5B /* Resources */,
+				5A8483D153231F0EEECA54D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 296B5F5C1FFEA31A00F92A5B /* Build configuration list for PBXNativeTarget "OwletNetworkTests" */;
 			buildPhases = (
+				D55D0E40324EAB8C5F89FACC /* [CP] Check Pods Manifest.lock */,
 				296B5F4A1FFEA31A00F92A5B /* Sources */,
 				296B5F4B1FFEA31A00F92A5B /* Frameworks */,
 				296B5F4C1FFEA31A00F92A5B /* Resources */,
+				87CECE7C96231EECAA62F414 /* [CP] Embed Pods Frameworks */,
+				AF0CC062D1D8451F066D8E53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +188,7 @@
 				TargetAttributes = {
 					296B5F441FFEA31A00F92A5B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					296B5F4D1FFEA31A00F92A5B = {
@@ -191,11 +232,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A8483D153231F0EEECA54D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwletNetwork/Pods-OwletNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CECE7C96231EECAA62F414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OwletNetworkTests/Pods-OwletNetworkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwletNetworkTests/Pods-OwletNetworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0CC062D1D8451F066D8E53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwletNetworkTests/Pods-OwletNetworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55D0E40324EAB8C5F89FACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwletNetworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF825DBCC06366B51F3B3083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwletNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		296B5F401FFEA31A00F92A5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296B5F601FFEA40800F92A5B /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +470,9 @@
 		};
 		296B5F5A1FFEA31A00F92A5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB66D3D8FFE52D917F8A35F /* Pods-OwletNetwork.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.owletcare.OwletNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,7 +494,9 @@
 		};
 		296B5F5B1FFEA31A00F92A5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0916B1B5C73A4B15A170CC2B /* Pods-OwletNetwork.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,7 +517,9 @@
 		};
 		296B5F5D1FFEA31A00F92A5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBCB64A6944A09282E16851 /* Pods-OwletNetworkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BK3MYFCCZY;
 				INFOPLIST_FILE = OwletNetworkTests/Info.plist;
@@ -389,7 +533,9 @@
 		};
 		296B5F5E1FFEA31A00F92A5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA6B6BC78997727A6900603 /* Pods-OwletNetworkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BK3MYFCCZY;
 				INFOPLIST_FILE = OwletNetworkTests/Info.plist;
